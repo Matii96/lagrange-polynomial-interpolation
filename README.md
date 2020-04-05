@@ -8,4 +8,6 @@ exec script.sci
 
 # Example
 
-![alt text](https://github.com/Matii96/lagrange-polynomial-interpolation/blob/master/result.png)
+<p align="center">
+  <img src="https://github.com/Matii96/lagrange-polynomial-interpolation/blob/master/result.png"/>
+</p>
