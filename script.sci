@@ -7,10 +7,7 @@ y = cos(x);
 
 // Lagrange
 x2 = linspace(min(x), max(x), 100);
-y2 = [];
-for i = 1:length(x2)
-  y2(length(y2)+1) = lagrange(x2(i), x, y);
-end
+y2 = lagrange(x2, x, y);
 y3 = cos(x2);
 
 // Draw results
